@@ -9,3 +9,14 @@ main:
         url: /category/computer-vision/
       - title: "NLP"
         url: /category/nlp/
+
+category:
+  - title: "논문리뷰"
+    url: /category/nonmun/
+    children:
+      - title: "Audio & speech"
+        url: /category/audio-speech/
+      - title: "Computer Vision"
+        url: /category/computer-vision/
+      - title: "NLP"
+        url: /category/nlp/
