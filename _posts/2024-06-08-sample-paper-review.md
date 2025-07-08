@@ -2,6 +2,7 @@
 title: "[논문리뷰] 샘플 오디오 논문"
 date: 2024-06-08
 categories:
+  - 논문리뷰
   - audio-speech
 tags:
   - 논문리뷰
