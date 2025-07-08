@@ -17,7 +17,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 # Site Settings
 locale                   : "en-US"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
-title                    : ""
+title                    : "일단 즐겨"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Gyuyeon Jo"
@@ -113,9 +113,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "gyuyeonjo"
+  name             : "Gyuyeon Jo"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
+  bio              : "It’s easy to imagine what’s happening inside, and it works."
   location         : "Somewhere"
   email            : "rbdus0715@gmail.com"
   links:
