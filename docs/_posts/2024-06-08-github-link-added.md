@@ -1,7 +1,7 @@
 ---
 title: "깃허브 링크 추가 안내"
 date: 2024-06-08 12:00:00 +0900
-categories: [공지]
+categories: [nlp]
 tags: [github, profile]
 ---
 
