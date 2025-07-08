@@ -1,8 +1,18 @@
-{% assign posts = site.categories[include.taxonomy] | where_exp: "post", "post.hidden != true" %}
-{%- if posts and posts.size > 0 -%}
-  {%- for post in posts -%}
+{% assign posts = site.posts | where_exp: "post", "post.hidden != true" %}
+{% assign taxonomy = include.taxonomy %}
+{% assign filtered_posts = "" | split: "" %}
+{% for post in posts %}
+  {% for cat in post.categories %}
+    {% if cat == taxonomy or cat contains taxonomy %}
+      {% assign filtered_posts = filtered_posts | push: post %}
+      {% break %}
+    {% endif %}
+  {% endfor %}
+{% endfor %}
+{% if filtered_posts.size > 0 %}
+  {% for post in filtered_posts %}
     {% include archive-single.html %}
-  {%- endfor -%}
-{%- else -%}
+  {% endfor %}
+{% else %}
   <p style="padding:2em 0;text-align:center;color:#888;">해당 카테고리에 글이 없습니다.</p>
-{%- endif -%}
+{% endif %}
