@@ -1,11 +1,11 @@
 # main links
-main: []
-
-# - title: "About"
-#   url: https://mmistakes.github.io/minimal-mistakes/about/
-# - title: "Sample Posts"
-#   url: /year-archive/
-# - title: "Sample Collections"
-#   url: /collection-archive/
-# - title: "Sitemap"
-#   url: /sitemap/
+main:
+  - title: "논문리뷰"
+    url: /category/nonmun/
+    children:
+      - title: "Audio & speech"
+        url: /category/audio-speech/
+      - title: "Computer Vision"
+        url: /category/computer-vision/
+      - title: "NLP"
+        url: /category/nlp/
