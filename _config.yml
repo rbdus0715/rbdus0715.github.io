@@ -117,7 +117,7 @@ author:
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "It’s easy to imagine what’s happening inside, and it works."
   location         : "Seoul, South Korea"
-  email            : "rbdus0715@gmail.com"
+  # email            : "rbdus0715@gmail.com"  # 중복 방지 위해 주석 처리
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
