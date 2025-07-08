@@ -62,7 +62,7 @@
     outline: none;
     box-shadow: none;
     background-color: transparent;
-    font-size: 1em !important; // kimjy99.github.io와 동일하게 16px로 고정
+    font-size: 0.875em !important; // 한 단계 더 작은 14px로 조정
 
     @include breakpoint($large) {
       font-size: $type-size-2;
@@ -110,7 +110,7 @@
 }
 
 .search__toggle .fa-search {
-  font-size: 1em !important; // 돋보기 아이콘도 동일하게 16px로 고정
+  font-size: 0.875em !important; // 돋보기 아이콘도 14px로 조정
 }
 
 /* Algolia search */
