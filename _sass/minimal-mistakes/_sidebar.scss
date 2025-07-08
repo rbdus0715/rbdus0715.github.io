@@ -312,7 +312,7 @@
     padding-block: 2px;
     padding-inline-end: 5px;
     color: inherit;
-    font-size: $type-size-5;
+    font-size: $type-size-4; // 위치와 동일하게 1em로 키움
     text-decoration: none;
 
     &:hover {
