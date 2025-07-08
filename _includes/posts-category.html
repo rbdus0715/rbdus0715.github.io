@@ -1,4 +1,8 @@
 {% assign posts = site.categories[include.taxonomy] | where_exp: "post", "post.hidden != true" %}
-{%- for post in posts -%}
-  {% include archive-single.html %}
-{%- endfor -%}
+{%- if posts and posts.size > 0 -%}
+  {%- for post in posts -%}
+    {% include archive-single.html %}
+  {%- endfor -%}
+{%- else -%}
+  <p style="padding:2em 0;text-align:center;color:#888;">해당 카테고리에 글이 없습니다.</p>
+{%- endif -%}
