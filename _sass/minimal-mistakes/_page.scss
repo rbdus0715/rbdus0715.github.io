@@ -8,8 +8,13 @@
   padding-inline: 1em;
   -webkit-animation: $intro-transition;
   animation: $intro-transition;
+  max-width: 100%;
   -webkit-animation-delay: 0.15s;
   animation-delay: 0.15s;
+
+  @include breakpoint($x-large) {
+    max-width: $max-width;
+  }
 }
 
 body {
@@ -26,28 +31,6 @@ body {
 .initial-content,
 .search-content {
   flex: 1 0 auto;
-}
-
-.page, .archive {
-  @include breakpoint($large) {
-    float: inline-end;
-    width: calc(100% - #{$right-sidebar-width-narrow});
-    padding-inline-end: 0;
-  }
-  @include breakpoint($x-large) {
-    width: calc(100% - #{$right-sidebar-width});
-    padding-inline-end: 0;
-  }
-}
-
-// wide 클래스 효과를 항상 적용
-.wide, .page, .archive {
-  @include breakpoint($large) {
-    padding-inline-end: 0 !important;
-  }
-  @include breakpoint($x-large) {
-    padding-inline-end: 0 !important;
-  }
 }
 
 .page {
