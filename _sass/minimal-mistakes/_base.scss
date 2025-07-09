@@ -114,6 +114,8 @@ blockquote {
   padding-inline: 0;
   border-inline-start: 0.25em solid $primary-color; // 왼쪽 세로선만 표시
   font-style: italic;
+  padding-inline-start: 1em;
+
 
   cite {
     font-style: italic;
