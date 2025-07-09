@@ -8,19 +8,16 @@ search: false
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-// 포스트(글) 영역을 넓히는 커스텀 코드 (왼쪽 여백은 유지, 오른쪽까지 확장)
+// 포스트(글) 영역을 넓히는 커스텀 코드 (sidebar 공간은 그대로 두고 본문만 넓힘)
 #main {
   @media (min-width: 1280px) {
-    max-width: 1600px !important; // 원하는 만큼 넓게
+    max-width: 1600px !important; // 전체 컨테이너 넓이만 늘림
   }
 }
 
 .page {
   @media (min-width: 1280px) {
-    width: 100% !important; // sidebar 공간까지 다 차지
-    max-width: 100% !important;
-    padding-inline-end: 0 !important; // 오른쪽 padding 제거
-    margin-left: calc(#{$right-sidebar-width} + 2em); // sidebar와 겹치지 않게
-    margin-right: 0 !important;
+    max-width: 100% !important; // 내부적으로 최대한 넓게
+    padding-inline-end: 0 !important; // 혹시 오른쪽 padding이 남으면 제거
   }
 }
