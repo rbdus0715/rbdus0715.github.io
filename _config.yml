@@ -115,7 +115,7 @@ analytics:
 author:
   name             : "Gyuyeon Jo"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "It’s easy to imagine what’s happening inside, and it works."
+  bio              : "근데 이제 음악을 곁들인"
   location         : "Seoul, South Korea"
   # email            : "rbdus0715@gmail.com"  # 중복 방지 위해 주석 처리
   links:
