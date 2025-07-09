@@ -34,25 +34,15 @@ body {
 }
 
 .page {
-  // @include breakpoint($large) {
-  //   float: inline-end;
-  //   width: calc(100% - #{$right-sidebar-width-narrow});
-  //   padding-inline-end: $right-sidebar-width-narrow;
-  // }
-
-  // @include breakpoint($x-large) {
-  //   width: calc(100% - #{$right-sidebar-width});
-  //   padding-inline-end: $right-sidebar-width;
-  // }
   @include breakpoint($large) {
-    float: right;
+    float: inline-end;
     width: calc(100% - #{$right-sidebar-width-narrow});
-    padding-right: $right-sidebar-width-narrow;
+    padding-inline-end: $right-sidebar-width-narrow;
   }
 
   @include breakpoint($x-large) {
     width: calc(100% - #{$right-sidebar-width});
-    padding-right: $right-sidebar-width;
+    padding-inline-end: $right-sidebar-width;
   }
 
   .page__inner-wrap {
@@ -567,5 +557,13 @@ body {
     @include breakpoint($x-large) {
       padding-inline-end: 0;
     }
+  }
+}
+
+@media (min-width: 1280px) {
+  article.page {
+    width: 100% !important;
+    padding-right: 0 !important;
+    float: none !important;
   }
 }
