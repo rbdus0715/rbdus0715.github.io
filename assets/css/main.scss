@@ -7,3 +7,30 @@ search: false
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+// 포스트(글) 영역을 넓히는 커스텀 코드 (왼쪽 여백은 유지, 오른쪽만 넓힘)
+.page {
+  @media (min-width: 1280px) {
+    max-width: 1400px !important; // 원하는 만큼 넓게 (검색 버튼보다 넓으면 값 조정)
+    margin-left: calc(#{$right-sidebar-width} + 2em); // 사이드바와의 거리 유지 (기본 300px + 여백)
+    margin-right: 0 !important; // 오른쪽 끝까지
+  }
+}
+
+// 게시글 영역 width와 본문 폰트 크기 커스텀 (kimjy99.github.io 참고)
+html {
+  font-size: 16px !important; // 전체 기본 폰트 크기
+}
+
+.page__content,
+.page__content p,
+.page__content li,
+.page__content dl {
+  font-size: 1.125em !important; // 본문 폰트 크기 (18px)
+  line-height: 1.8;
+}
+
+// 헤더 폰트 크기도 키우고 싶으면 아래 주석 해제
+.page__content h1 { font-size: 2.5em !important; }
+.page__content h2 { font-size: 2em !important; }
+.page__content h3 { font-size: 1.5em !important; }
