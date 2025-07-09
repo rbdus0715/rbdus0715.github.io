@@ -1,1 +1,1 @@
-rbdus0715.github.io
+my blog
