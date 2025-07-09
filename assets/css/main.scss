@@ -8,16 +8,11 @@ search: false
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-// 포스트(글) 영역을 넓히는 커스텀 코드 (sidebar 공간은 그대로 두고 본문만 넓힘)
-#main {
-  @media (min-width: 1280px) {
-    max-width: 1600px !important; // 전체 컨테이너 넓이만 늘림
-  }
-}
-
+// 포스트(글) 영역을 넓히는 커스텀 코드 (왼쪽 여백은 유지, 오른쪽만 넓힘)
 .page {
   @media (min-width: 1280px) {
-    max-width: 100% !important; // 내부적으로 최대한 넓게
-    padding-inline-end: 0 !important; // 혹시 오른쪽 padding이 남으면 제거
+    max-width: 1400px !important; // 원하는 만큼 넓게 (검색 버튼보다 넓으면 값 조정)
+    margin-left: calc(#{$right-sidebar-width} + 2em); // 사이드바와의 거리 유지 (기본 300px + 여백)
+    margin-right: 0 !important; // 오른쪽 끝까지
   }
 }
