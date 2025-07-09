@@ -1,5 +1,5 @@
 ---
-title: "[논문 리뷰] A LIGHTWEIGHT INSTRUMENT-AGNOSTIC MODEL FOR POLYPHONIC NOTE TRANSCRIPTION AND MULTIPITCH ESTIMATION"
+title: "[논문 리뷰] A Lightweight Instrument-Agnostic Model for Polyphonic Note Transcription and Multipitch Estimation"
 date: 2024-07-09
 categories:
   - 논문리뷰
@@ -58,7 +58,7 @@ categories:
 ## Model
 <!-- ![alt text](../assets/img/spotify-paper/Fig1.png) -->
 <div style="text-align: center;">
-  <img src="../assets/img/spotify-paper/Fig1.png" width="500" />
+  <img src="/assets/img/spotify-paper/Fig1.png" width="500" />
 </div>
 
 
