@@ -113,7 +113,7 @@ blockquote {
   margin-inline: 0;
   padding-inline: 0;
   border-inline-start: 0.25em solid $primary-color; // 왼쪽 세로선만 표시
-  // font-style: normal; // 기울임도 원하지 않으면
+  font-style: italic;
 
   cite {
     font-style: italic;
