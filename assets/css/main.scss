@@ -16,21 +16,3 @@ search: false
     margin-right: 0 !important; // 오른쪽 끝까지
   }
 }
-
-// 게시글 영역 width와 본문 폰트 크기 커스텀 (kimjy99.github.io 참고)
-html {
-  font-size: 16px !important; // 전체 기본 폰트 크기
-}
-
-.page__content,
-.page__content p,
-.page__content li,
-.page__content dl {
-  font-size: 1.125em !important; // 본문 폰트 크기 (18px)
-  line-height: 1.8;
-}
-
-// 헤더 폰트 크기도 키우고 싶으면 아래 주석 해제
-.page__content h1 { font-size: 2.5em !important; }
-.page__content h2 { font-size: 2em !important; }
-.page__content h3 { font-size: 1.5em !important; }
