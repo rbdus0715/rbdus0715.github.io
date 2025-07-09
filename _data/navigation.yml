@@ -1,5 +1,5 @@
 category:
-  - title: "논문리뷰"
+  - title: "📝 논문리뷰"
     url: /category/논문리뷰/
     children:
       - title: "Audio & speech"
@@ -8,5 +8,5 @@ category:
         url: /category/computer-vision/
       - title: "NLP"
         url: /category/nlp/
-  - title: "프로젝트"
+  - title: "🗂️ 프로젝트"
     url: /category/프로젝트/
