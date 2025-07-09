@@ -1,12 +1,5 @@
-category:
+main:
   - title: "논문리뷰"
     url: /category/논문리뷰/
-    children:
-      - title: "Audio & speech"
-        url: /category/audio-speech/
-      - title: "Computer Vision"
-        url: /category/computer-vision/
-      - title: "NLP"
-        url: /category/nlp/
   - title: "프로젝트"
     url: /category/프로젝트/
