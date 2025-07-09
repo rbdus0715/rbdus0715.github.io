@@ -6,10 +6,10 @@ categories:
   - audio-speech
 ---
 
-> ICASSP [Paper](https://arxiv.org/pdf/2203.09893.pdf) [Github](https://github.com/spotify/basic-pitch) 
-> Rachel M. Bittner, Juan José Bosch, David Rubinstein, Gabriel Meseguer-Brocal, Sebastian Ewert
-> Spotify, IRCAM
-> 12 May 2022
+> ICASSP [Paper](https://arxiv.org/pdf/2203.09893.pdf) [Github](https://github.com/spotify/basic-pitch)  
+> Rachel M. Bittner, Juan José Bosch, David Rubinstein, Gabriel Meseguer-Brocal, Sebastian Ewert  
+> Spotify, IRCAM  
+> 12 May 2022  
 
 ## Abstract
 **기존의 문제점**
